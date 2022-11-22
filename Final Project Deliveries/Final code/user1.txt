@@ -1,0 +1,116 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Tracker</title>
+</head>
+<style>
+    body {
+        background-image: url("news1.png");
+        color: darkblue;
+    }
+
+    .container1 {
+        height: 50px;
+        width: 1449px;
+        background-image: url("news1.png");
+    }
+
+    h1 {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 23px;
+    }
+
+    .container2:hover {
+        background-color: darkblue;
+    }
+
+    a {
+        text-decoration: none;
+        color: darkblue;
+    }
+
+    a:hover {
+        color: blueviolet;
+    }
+
+    button:hover {
+        background-color: white;
+        border-color: cadetblue;
+    }
+</style>
+
+<body>
+    <center>
+        <h1 style="padding-top:50px">News Tracker</h1>
+        <img src="https://media.istockphoto.com/id/1336346717/photo/3d-rendering-background.jpg?b=1&s=170667a&w=0&k=20&c=U5iwpfbOBD05zTyk8Jdn089npS_oq96SHMiYNuioLLM="alt="LOGO"
+            style="height: 140px;width: 140px">
+        <br>
+        <br>
+        <div class="container1">
+            <div class="container2" style="float: left">
+                <button style="height:50px;">
+                    <a href="https://m.dailyhunt.in/news/india/english/for+you?mode=pwa&action=click">
+                        <H1>LOGIN</H1>
+                    </a>
+                </button>
+            </div>
+            
+            <div class="container2" style="float: left">
+                <button style="height:50px;">
+                    <a href="https://m.dailyhunt.in/news/india/english/for+you?mode=pwa&action=click">
+                        <H1>YOUR PLANS ARE HERE</H1>
+                    </a>
+                </button> 
+            </div>
+            <div class="container2" style="float: left">
+                <button style="height:50px;">
+                    <a href="https:https://m.dailyhunt.in/news/india/english/for+you?mode=pwa&action=click">
+                        <H1>NEWS PROVIDER</H1>
+                    </a>
+                </button>
+            </div>
+            <div class="container2" style="float: left">
+                <button style="height:50px;">
+                    <a href="https://m.dailyhunt.in/news/india/english/for+you?mode=pwa&action=click">
+                        <H1>GET HELP</H1>
+                    </a>
+
+                </button>
+            </div>
+            <div class="container2" style="float: left">
+                <button style="height:50px;">
+                    <a href="https://m.dailyhunt.in/news/india/english/for+you?mode=pwa&action=click">
+                        <H1>SITE MAP</H1>
+                    </a>
+
+                </button>
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+            </center>
+
+</body>
+
+</html>
+
+
+<script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "d63547f8-f695-4dc1-9d49-1427ee71a40c", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "37373119-945f-46a0-928a-ced41dc40f36", // The ID of your service instance.
+        onLoad: function (instance) { instance.render(); }
+    };
+    setTimeout(function () {
+        const t = document.createElement('script');
+        t.src = "https://m.dailyhunt.in/news/india/english/for+you?mode=pwa&action=click";
+        document.head.appendChild(t);
+    });
+</script>
